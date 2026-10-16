@@ -1,0 +1,407 @@
+[
+  {
+    "category": "Cloud Hosting & VPS",
+    "name": "DigitalOcean",
+    "url": "https://www.digitalocean.com",
+    "referral_url": "https://m.do.co/c/affiliate_free_credit",
+    "free_tier": "$200 Free Credit (60 Days) + 3 Free Static Sites on App Platform",
+    "cc_required": true,
+    "check_url": "https://www.digitalocean.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 178,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 178ms`"
+    }
+  },
+  {
+    "category": "Cloud Hosting & VPS",
+    "name": "Vultr",
+    "url": "https://www.vultr.com",
+    "referral_url": "https://www.vultr.com/?ref=affiliate_free_tier",
+    "free_tier": "$100 Free Credit for testing VPS + Free Tier Cloud Compute",
+    "cc_required": true,
+    "check_url": "https://www.vultr.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 403,
+      "latency_ms": 92,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 92ms`"
+    }
+  },
+  {
+    "category": "Cloud Hosting & VPS",
+    "name": "Railway",
+    "url": "https://railway.app",
+    "referral_url": "https://railway.app?referralCode=dev_infra",
+    "free_tier": "$5/mo Free Execution Credit + 512MB RAM containers",
+    "cc_required": false,
+    "check_url": "https://railway.app",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 415,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 415ms`"
+    }
+  },
+  {
+    "category": "Cloud Hosting & VPS",
+    "name": "Render",
+    "url": "https://render.com",
+    "referral_url": "https://render.com",
+    "free_tier": "Free Web Services (512MB RAM) + Free Static Sites with SSL",
+    "cc_required": false,
+    "check_url": "https://render.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 281,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 281ms`"
+    }
+  },
+  {
+    "category": "Cloud Hosting & VPS",
+    "name": "Koyeb",
+    "url": "https://www.koyeb.com",
+    "referral_url": "https://www.koyeb.com",
+    "free_tier": "2 Free Nano Services (512MB RAM, 0.1 vCPU, 5.5GB SSD) permanently free",
+    "cc_required": false,
+    "check_url": "https://www.koyeb.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 426,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 426ms`"
+    }
+  },
+  {
+    "category": "Cloud Hosting & VPS",
+    "name": "Fly.io",
+    "url": "https://fly.io",
+    "referral_url": "https://fly.io",
+    "free_tier": "Up to 3 shared-cpu-1x 256MB VMs + 3GB persistent volumes free",
+    "cc_required": true,
+    "check_url": "https://fly.io",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 314,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 314ms`"
+    }
+  },
+  {
+    "category": "AI Inference & LLM APIs",
+    "name": "GroqCloud",
+    "url": "https://groq.com",
+    "referral_url": "https://console.groq.com",
+    "free_tier": "LPU Ultra-fast Inference (Llama 3.3 70B, Mixtral) \u2014 30 RPM Free Tier",
+    "cc_required": false,
+    "check_url": "https://console.groq.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 628,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 628ms`"
+    }
+  },
+  {
+    "category": "AI Inference & LLM APIs",
+    "name": "Cerebras Inference",
+    "url": "https://cerebras.ai",
+    "referral_url": "https://inference.cerebras.ai",
+    "free_tier": "Wafer-Scale Engine Inference (~2000 tokens/sec) \u2014 1M tokens/day Free",
+    "cc_required": false,
+    "check_url": "https://inference.cerebras.ai",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1077,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1077ms`"
+    }
+  },
+  {
+    "category": "AI Inference & LLM APIs",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "referral_url": "https://openrouter.ai",
+    "free_tier": "Access 30+ Free AI models (DeepSeek R1, Llama 3.3, Qwen) with 0 cost",
+    "cc_required": false,
+    "check_url": "https://openrouter.ai",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 120,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 120ms`"
+    }
+  },
+  {
+    "category": "AI Inference & LLM APIs",
+    "name": "Cloudflare Workers AI",
+    "url": "https://ai.cloudflare.com",
+    "referral_url": "https://workers.cloudflare.com",
+    "free_tier": "10,000 Neurons/day free (~100-200 prompt completions) on edge",
+    "cc_required": false,
+    "check_url": "https://ai.cloudflare.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1049,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1049ms`"
+    }
+  },
+  {
+    "category": "AI Inference & LLM APIs",
+    "name": "DeepInfra",
+    "url": "https://deepinfra.com",
+    "referral_url": "https://deepinfra.com",
+    "free_tier": "Free signup credits + extremely low cost serverless inference",
+    "cc_required": false,
+    "check_url": "https://deepinfra.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 109,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 109ms`"
+    }
+  },
+  {
+    "category": "AI Inference & LLM APIs",
+    "name": "Hugging Face Inference",
+    "url": "https://huggingface.co",
+    "referral_url": "https://huggingface.co",
+    "free_tier": "Serverless Inference API on 100,000+ open-source models free",
+    "cc_required": false,
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 146,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 146ms`"
+    }
+  },
+  {
+    "category": "Serverless Databases",
+    "name": "Neon Postgres",
+    "url": "https://neon.tech",
+    "referral_url": "https://neon.tech",
+    "free_tier": "Serverless Postgres with branching \u2014 0.5GB storage, autoscaling to zero",
+    "cc_required": false,
+    "check_url": "https://neon.tech",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 395,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 395ms`"
+    }
+  },
+  {
+    "category": "Serverless Databases",
+    "name": "Supabase",
+    "url": "https://supabase.com",
+    "referral_url": "https://supabase.com",
+    "free_tier": "2 Free Projects (500MB DB, 1GB Storage, 50,000 Monthly Active Users)",
+    "cc_required": false,
+    "check_url": "https://supabase.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 120,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 120ms`"
+    }
+  },
+  {
+    "category": "Serverless Databases",
+    "name": "Turso",
+    "url": "https://turso.tech",
+    "referral_url": "https://turso.tech",
+    "free_tier": "Edge SQLite (libSQL) \u2014 9GB storage, 500 databases, 1B row reads/mo",
+    "cc_required": false,
+    "check_url": "https://turso.tech",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 154,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 154ms`"
+    }
+  },
+  {
+    "category": "Serverless Databases",
+    "name": "Upstash",
+    "url": "https://upstash.com",
+    "referral_url": "https://upstash.com",
+    "free_tier": "Serverless Redis & Kafka \u2014 10,000 commands/day, 100MB storage free",
+    "cc_required": false,
+    "check_url": "https://upstash.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 148,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 148ms`"
+    }
+  },
+  {
+    "category": "Serverless Databases",
+    "name": "Pinecone",
+    "url": "https://www.pinecone.io",
+    "referral_url": "https://www.pinecone.io",
+    "free_tier": "Vector DB for AI embeddings \u2014 1 Starter index with 100k vectors free",
+    "cc_required": false,
+    "check_url": "https://www.pinecone.io",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 514,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 514ms`"
+    }
+  },
+  {
+    "category": "Serverless Databases",
+    "name": "Qdrant Cloud",
+    "url": "https://qdrant.tech",
+    "referral_url": "https://cloud.qdrant.io",
+    "free_tier": "1GB permanent free cluster with 0.5 vCPU for vector search",
+    "cc_required": false,
+    "check_url": "https://qdrant.tech",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 117,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 117ms`"
+    }
+  },
+  {
+    "category": "Authentication & Security",
+    "name": "Clerk",
+    "url": "https://clerk.com",
+    "referral_url": "https://clerk.com",
+    "free_tier": "Up to 10,000 Monthly Active Users free + Social Logins + Multi-session",
+    "cc_required": false,
+    "check_url": "https://clerk.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 340,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 340ms`"
+    }
+  },
+  {
+    "category": "Authentication & Security",
+    "name": "Kinde",
+    "url": "https://kinde.com",
+    "referral_url": "https://kinde.com",
+    "free_tier": "Up to 7,500 Monthly Active Users + Social Auth + Enterprise SSO trial",
+    "cc_required": false,
+    "check_url": "https://kinde.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 567,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 567ms`"
+    }
+  },
+  {
+    "category": "Authentication & Security",
+    "name": "Cloudflare Zero Trust / Turnstile",
+    "url": "https://www.cloudflare.com",
+    "referral_url": "https://dash.cloudflare.com",
+    "free_tier": "Turnstile (CAPTCHA replacement) unlimited free + 50 Zero Trust seats",
+    "cc_required": false,
+    "check_url": "https://www.cloudflare.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 317,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 317ms`"
+    }
+  },
+  {
+    "category": "Email & Communication",
+    "name": "Resend",
+    "url": "https://resend.com",
+    "referral_url": "https://resend.com",
+    "free_tier": "3,000 emails/month (100/day) with custom domain & React Email support",
+    "cc_required": false,
+    "check_url": "https://resend.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 428,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 428ms`"
+    }
+  },
+  {
+    "category": "Email & Communication",
+    "name": "Brevo (Sendinblue)",
+    "url": "https://www.brevo.com",
+    "referral_url": "https://www.brevo.com",
+    "free_tier": "300 emails/day permanently free with unlimited contacts",
+    "cc_required": false,
+    "check_url": "https://www.brevo.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1898,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1898ms`"
+    }
+  },
+  {
+    "category": "Email & Communication",
+    "name": "Postmark",
+    "url": "https://postmarkapp.com",
+    "referral_url": "https://postmarkapp.com",
+    "free_tier": "100 test emails/month with best-in-class deliverability",
+    "cc_required": false,
+    "check_url": "https://postmarkapp.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 853,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 853ms`"
+    }
+  },
+  {
+    "category": "Observability & Monitoring",
+    "name": "Sentry",
+    "url": "https://sentry.io",
+    "referral_url": "https://sentry.io",
+    "free_tier": "5,000 errors/month + 10,000 performance units + 1GB attachments free",
+    "cc_required": false,
+    "check_url": "https://sentry.io",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 758,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 758ms`"
+    }
+  },
+  {
+    "category": "Observability & Monitoring",
+    "name": "Better Stack (Better Uptime)",
+    "url": "https://betterstack.com",
+    "referral_url": "https://betterstack.com",
+    "free_tier": "10 uptime monitors (3-minute checks) + free status page",
+    "cc_required": false,
+    "check_url": "https://betterstack.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 91,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 91ms`"
+    }
+  },
+  {
+    "category": "Observability & Monitoring",
+    "name": "Axiom",
+    "url": "https://axiom.co",
+    "referral_url": "https://axiom.co",
+    "free_tier": "0.5TB log ingest/month + 30-day retention free",
+    "cc_required": false,
+    "check_url": "https://axiom.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 142,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 142ms`"
+    }
+  }
+]
