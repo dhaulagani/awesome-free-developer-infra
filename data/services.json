@@ -9,7 +9,7 @@
     "check_url": "https://www.digitalocean.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 81,
+      "latency_ms": 94,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -38,7 +38,7 @@
     "check_url": "https://railway.app",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 250,
+      "latency_ms": 259,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -52,7 +52,7 @@
     "check_url": "https://render.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 145,
+      "latency_ms": 134,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -66,7 +66,7 @@
     "check_url": "https://www.koyeb.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 381,
+      "latency_ms": 430,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -80,7 +80,7 @@
     "check_url": "https://fly.io",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 98,
+      "latency_ms": 95,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -94,7 +94,7 @@
     "check_url": "https://console.groq.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 225,
+      "latency_ms": 353,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -108,7 +108,7 @@
     "check_url": "https://inference.cerebras.ai",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 597,
+      "latency_ms": 477,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -122,7 +122,7 @@
     "check_url": "https://openrouter.ai",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 112,
+      "latency_ms": 92,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -136,7 +136,7 @@
     "check_url": "https://ai.cloudflare.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 389,
+      "latency_ms": 490,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -150,7 +150,7 @@
     "check_url": "https://deepinfra.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 148,
+      "latency_ms": 119,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -164,7 +164,7 @@
     "check_url": "https://huggingface.co",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 81,
+      "latency_ms": 42,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -178,7 +178,7 @@
     "check_url": "https://neon.tech",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 299,
+      "latency_ms": 284,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -192,7 +192,7 @@
     "check_url": "https://supabase.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 161,
+      "latency_ms": 138,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -206,7 +206,7 @@
     "check_url": "https://turso.tech",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 159,
+      "latency_ms": 131,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -220,7 +220,7 @@
     "check_url": "https://upstash.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 249,
+      "latency_ms": 168,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -234,7 +234,7 @@
     "check_url": "https://www.pinecone.io",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 166,
+      "latency_ms": 350,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -248,7 +248,7 @@
     "check_url": "https://qdrant.tech",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 204,
+      "latency_ms": 106,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -262,7 +262,7 @@
     "check_url": "https://clerk.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 296,
+      "latency_ms": 259,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -276,7 +276,7 @@
     "check_url": "https://kinde.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 373,
+      "latency_ms": 330,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -290,7 +290,7 @@
     "check_url": "https://www.cloudflare.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 168,
+      "latency_ms": 157,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -304,7 +304,7 @@
     "check_url": "https://resend.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 135,
+      "latency_ms": 139,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -318,7 +318,7 @@
     "check_url": "https://www.brevo.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 89,
+      "latency_ms": 80,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -332,7 +332,7 @@
     "check_url": "https://postmarkapp.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 266,
+      "latency_ms": 313,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -346,7 +346,7 @@
     "check_url": "https://sentry.io",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 363,
+      "latency_ms": 347,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -360,7 +360,7 @@
     "check_url": "https://betterstack.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 154,
+      "latency_ms": 100,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   },
@@ -374,7 +374,7 @@
     "check_url": "https://axiom.co",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 136,
+      "latency_ms": 135,
       "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
     }
   }
