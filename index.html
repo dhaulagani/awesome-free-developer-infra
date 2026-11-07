@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Free Developer & AI Infrastructure (2026 Live Directory)</title>
+  <meta name="description" content="Verified, live-monitored directory of high-generosity free-tier cloud hosting, serverless databases, AI inference APIs, and developer tools. Updated daily.">
+  <meta name="keywords" content="free cloud vps, free postgres, free ai api, free llm inference, serverless database, free tier developer tools, 2026 developer infra">
+  <meta name="author" content="@dhaulagani">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dhaulagani.github.io/awesome-free-developer-infra/">
+  <meta property="og:title" content="Awesome Free Developer & AI Infrastructure (2026 Live Directory)">
+  <meta property="og:description" content="Verified directory of free cloud hosting, serverless databases, and AI inference APIs. Automated 24h health-checks and latency benchmarks.">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Awesome Free Developer & AI Infrastructure (2026)">
+  <meta name="twitter:description" content="Verified directory of zero-cost developer infrastructure with daily latency checks.">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Awesome Free Developer & AI Infrastructure (2026)",
+    "description": "Verified directory of high-generosity free-tier cloud VPS, serverless databases, AI inference APIs, and dev tools.",
+    "url": "https://dhaulagani.github.io/awesome-free-developer-infra/",
+    "author": {
+      "@type": "Person",
+      "name": "dhaulagani",
+      "url": "https://github.com/dhaulagani"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --card-hover: #1c2128;
+      --border: #30363d;
+      --border-accent: #388bfd;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --green: #3fb950;
+      --green-bg: rgba(63, 185, 80, 0.12);
+      --amber: #d29922;
+      --amber-bg: rgba(210, 153, 34, 0.12);
+      --blue-bg: rgba(88, 166, 255, 0.12);
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font);
+      line-height: 1.5;
+      padding-bottom: 80px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Top Nav */
+    header.site-header {
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0;
+      background: rgba(13, 17, 23, 0.85);
+      backdrop-filter: blur(8px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    .brand-badge {
+      background: var(--green-bg);
+      color: var(--green);
+      border: 1px solid rgba(63, 185, 80, 0.3);
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .btn-github {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 6px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s, border-color 0.2s;
+    }
+
+    .btn-github:hover {
+      background: #30363d;
+      border-color: #8b949e;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 60px 0 40px;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--blue-bg);
+      color: var(--accent);
+      border: 1px solid rgba(88, 166, 255, 0.3);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+
+    .hero h1 span.gradient {
+      color: var(--accent);
+    }
+
+    .hero p.lead {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto 30px;
+    }
+
+    .stats-bar {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .stat-val {
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* Controls Bar */
+    .controls {
+      margin: 40px 0 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      position: relative;
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .search-input {
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 12px 16px 12px 42px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-input:focus {
+      border-color: var(--border-accent);
+      box-shadow: 0 0 0 3px rgba(56, 139, 253, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .search-kbd {
+      position: absolute;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .filter-btn-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 0 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.2s;
+    }
+
+    .filter-btn-toggle.active {
+      background: var(--green-bg);
+      border-color: var(--green);
+      color: var(--green);
+    }
+
+    .sort-select {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text-main);
+      padding: 0 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      outline: none;
+    }
+
+    /* Category Tabs */
+    .category-pills {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+      scrollbar-width: none;
+    }
+
+    .category-pills::-webkit-scrollbar {
+      display: none;
+    }
+
+    .pill {
+      background: #21262d;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .pill:hover {
+      color: var(--text-main);
+      background: #30363d;
+    }
+
+    .pill.active {
+      background: var(--accent);
+      color: #0d1117;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Results Header */
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Grid */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #58a6ff;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .service-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-main);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .service-name:hover {
+      color: var(--accent);
+    }
+
+    .service-cat {
+      font-size: 0.75rem;
+      background: #21262d;
+      color: var(--text-muted);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    .card-body {
+      margin-bottom: 16px;
+      flex: 1;
+    }
+
+    .free-tier-text {
+      font-size: 0.9rem;
+      color: #c9d1d9;
+      line-height: 1.45;
+      background: rgba(13, 17, 23, 0.5);
+      border: 1px solid #21262d;
+      padding: 10px 12px;
+      border-radius: 6px;
+      margin-bottom: 14px;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .badge-no-cc {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--green);
+      background: var(--green-bg);
+      border: 1px solid rgba(63, 185, 80, 0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .badge-cc-req {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--amber);
+      background: var(--amber-bg);
+      border: 1px solid rgba(210, 153, 34, 0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .badge-latency {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      background: var(--blue-bg);
+      border: 1px solid rgba(88, 166, 255, 0.3);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    .card-footer {
+      margin-top: auto;
+      padding-top: 14px;
+      border-top: 1px solid #21262d;
+    }
+
+    .btn-claim {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: #238636;
+      color: #ffffff;
+      padding: 9px 14px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn-claim:hover {
+      background: #2ea043;
+    }
+
+    /* Empty state */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    /* Footer */
+    footer.site-footer {
+      margin-top: 80px;
+      border-top: 1px solid var(--border);
+      padding: 30px 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      .search-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Nav -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="./" class="brand">
+        <span>⚡ Awesome Free Infra</span>
+        <span class="brand-badge">2026 Edition</span>
+      </a>
+      <div class="nav-links">
+        <a href="https://github.com/dhaulagani/awesome-free-developer-infra" target="_blank" rel="noopener noreferrer" class="btn-github">
+          <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
+          Star on GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-pill">
+        <span>🔄 Automated 24h Probes Active</span>
+      </div>
+      <h1>Verified <span class="gradient">Free Developer</span> Infrastructure</h1>
+      <p class="lead">
+        Stop fighting outdated lists. An autonomous daemon actively pings 27 cloud hosts, serverless databases, and AI inference APIs every 24 hours to ensure you never get hit by unexpected surprise bills.
+      </p>
+
+      <div class="stats-bar">
+        <div class="stat-card">
+          <span>📦</span>
+          <div><span class="stat-val">27 Active Services</span> Monitored</div>
+        </div>
+        <div class="stat-card">
+          <span>💳</span>
+          <div><span class="stat-val">24 No-CC Tiers</span> Available</div>
+        </div>
+        <div class="stat-card">
+          <span>⏱️</span>
+          <div>Last Checked: <span class="stat-val">2026-11-07 17:59 UTC</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <section class="controls">
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search services, databases, AI models... (Press '/' to focus)" autocomplete="off">
+          <kbd class="search-kbd">/</kbd>
+        </div>
+
+        <button id="toggleNoCC" class="filter-btn-toggle" type="button">
+          <span>⚡</span>
+          <span>No Credit Card Only</span>
+        </button>
+
+        <select id="sortSelect" class="sort-select">
+          <option value="default">Sort: Default</option>
+          <option value="latency">Sort: Lowest Latency</option>
+          <option value="name">Sort: A-Z</option>
+        </select>
+      </div>
+
+      <!-- Categories -->
+      <div class="category-pills" id="categoryPills">
+        <button class="pill active" data-category="All">All</button>
+        <button class="pill " data-category="Cloud Hosting & VPS">Cloud Hosting & VPS</button>
+        <button class="pill " data-category="AI Inference & LLM APIs">AI Inference & LLM APIs</button>
+        <button class="pill " data-category="Serverless Databases">Serverless Databases</button>
+        <button class="pill " data-category="Authentication & Security">Authentication & Security</button>
+        <button class="pill " data-category="Email & Communication">Email & Communication</button>
+        <button class="pill " data-category="Observability & Monitoring">Observability & Monitoring</button>
+      </div>
+    </section>
+
+    <!-- Results Info -->
+    <div class="results-info">
+      <span id="resultsCount">Showing 27 verified services</span>
+      <span>Live ping badges verified by automated daemon</span>
+    </div>
+
+    <!-- Grid -->
+    <section class="services-grid" id="servicesGrid">
+      <article class="card" data-name="digitalocean" data-category="Cloud Hosting & VPS" data-cc="true" data-latency="223">
+        <div>
+          <div class="card-top">
+            <a href="https://m.do.co/c/88cb7c3c8071" target="_blank" rel="noopener noreferrer" class="service-name">
+              DigitalOcean
+            </a>
+            <span class="service-cat">Cloud Hosting & VPS</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              $200 Free Credit (60 Days) + 3 Free Static Sites on App Platform
+            </div>
+            <div class="badge-row">
+              <span class="badge-cc-req">⚠️ CC Req.</span>
+              <span class="badge-latency">⚡ 223ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://m.do.co/c/88cb7c3c8071" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Claim Free Credit ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="vultr" data-category="Cloud Hosting & VPS" data-cc="true" data-latency="186">
+        <div>
+          <div class="card-top">
+            <a href="https://www.vultr.com/?ref=9934298" target="_blank" rel="noopener noreferrer" class="service-name">
+              Vultr
+            </a>
+            <span class="service-cat">Cloud Hosting & VPS</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              $100 Free Credit for testing VPS + Free Tier Cloud Compute
+            </div>
+            <div class="badge-row">
+              <span class="badge-cc-req">⚠️ CC Req.</span>
+              <span class="badge-latency">⚡ 186ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://www.vultr.com/?ref=9934298" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Claim Free Credit ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="railway" data-category="Cloud Hosting & VPS" data-cc="false" data-latency="427">
+        <div>
+          <div class="card-top">
+            <a href="https://railway.com?referralCode=wSgkHD" target="_blank" rel="noopener noreferrer" class="service-name">
+              Railway
+            </a>
+            <span class="service-cat">Cloud Hosting & VPS</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              $5/mo Free Execution Credit + 512MB RAM containers
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 427ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://railway.com?referralCode=wSgkHD" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Claim Free Credit ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="render" data-category="Cloud Hosting & VPS" data-cc="false" data-latency="795">
+        <div>
+          <div class="card-top">
+            <a href="https://render.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Render
+            </a>
+            <span class="service-cat">Cloud Hosting & VPS</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Free Web Services (512MB RAM) + Free Static Sites with SSL
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 795ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://render.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="koyeb" data-category="Cloud Hosting & VPS" data-cc="false" data-latency="316">
+        <div>
+          <div class="card-top">
+            <a href="https://www.koyeb.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Koyeb
+            </a>
+            <span class="service-cat">Cloud Hosting & VPS</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              2 Free Nano Services (512MB RAM, 0.1 vCPU, 5.5GB SSD) permanently free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 316ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://www.koyeb.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="fly.io" data-category="Cloud Hosting & VPS" data-cc="true" data-latency="140">
+        <div>
+          <div class="card-top">
+            <a href="https://fly.io" target="_blank" rel="noopener noreferrer" class="service-name">
+              Fly.io
+            </a>
+            <span class="service-cat">Cloud Hosting & VPS</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Up to 3 shared-cpu-1x 256MB VMs + 3GB persistent volumes free
+            </div>
+            <div class="badge-row">
+              <span class="badge-cc-req">⚠️ CC Req.</span>
+              <span class="badge-latency">⚡ 140ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://fly.io" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="groqcloud" data-category="AI Inference & LLM APIs" data-cc="false" data-latency="801">
+        <div>
+          <div class="card-top">
+            <a href="https://console.groq.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              GroqCloud
+            </a>
+            <span class="service-cat">AI Inference & LLM APIs</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              LPU Ultra-fast Inference (Llama 3.3 70B, Mixtral) — 30 RPM Free Tier
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 801ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://console.groq.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="cerebras inference" data-category="AI Inference & LLM APIs" data-cc="false" data-latency="1533">
+        <div>
+          <div class="card-top">
+            <a href="https://inference.cerebras.ai" target="_blank" rel="noopener noreferrer" class="service-name">
+              Cerebras Inference
+            </a>
+            <span class="service-cat">AI Inference & LLM APIs</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Wafer-Scale Engine Inference (~2000 tokens/sec) — 1M tokens/day Free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 1533ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://inference.cerebras.ai" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="openrouter" data-category="AI Inference & LLM APIs" data-cc="false" data-latency="143">
+        <div>
+          <div class="card-top">
+            <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer" class="service-name">
+              OpenRouter
+            </a>
+            <span class="service-cat">AI Inference & LLM APIs</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Access 30+ Free AI models (DeepSeek R1, Llama 3.3, Qwen) with 0 cost
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 143ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="cloudflare workers ai" data-category="AI Inference & LLM APIs" data-cc="false" data-latency="1060">
+        <div>
+          <div class="card-top">
+            <a href="https://workers.cloudflare.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Cloudflare Workers AI
+            </a>
+            <span class="service-cat">AI Inference & LLM APIs</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              10,000 Neurons/day free (~100-200 prompt completions) on edge
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 1060ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://workers.cloudflare.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="deepinfra" data-category="AI Inference & LLM APIs" data-cc="false" data-latency="107">
+        <div>
+          <div class="card-top">
+            <a href="https://deepinfra.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              DeepInfra
+            </a>
+            <span class="service-cat">AI Inference & LLM APIs</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Free signup credits + extremely low cost serverless inference
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 107ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://deepinfra.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Claim Free Credit ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="hugging face inference" data-category="AI Inference & LLM APIs" data-cc="false" data-latency="117">
+        <div>
+          <div class="card-top">
+            <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" class="service-name">
+              Hugging Face Inference
+            </a>
+            <span class="service-cat">AI Inference & LLM APIs</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Serverless Inference API on 100,000+ open-source models free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 117ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="neon postgres" data-category="Serverless Databases" data-cc="false" data-latency="297">
+        <div>
+          <div class="card-top">
+            <a href="https://neon.tech" target="_blank" rel="noopener noreferrer" class="service-name">
+              Neon Postgres
+            </a>
+            <span class="service-cat">Serverless Databases</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Serverless Postgres with branching — 0.5GB storage, autoscaling to zero
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 297ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://neon.tech" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="supabase" data-category="Serverless Databases" data-cc="false" data-latency="208">
+        <div>
+          <div class="card-top">
+            <a href="https://supabase.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Supabase
+            </a>
+            <span class="service-cat">Serverless Databases</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              2 Free Projects (500MB DB, 1GB Storage, 50,000 Monthly Active Users)
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 208ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://supabase.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="turso" data-category="Serverless Databases" data-cc="false" data-latency="198">
+        <div>
+          <div class="card-top">
+            <a href="https://turso.tech" target="_blank" rel="noopener noreferrer" class="service-name">
+              Turso
+            </a>
+            <span class="service-cat">Serverless Databases</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Edge SQLite (libSQL) — 9GB storage, 500 databases, 1B row reads/mo
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 198ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://turso.tech" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="upstash" data-category="Serverless Databases" data-cc="false" data-latency="201">
+        <div>
+          <div class="card-top">
+            <a href="https://upstash.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Upstash
+            </a>
+            <span class="service-cat">Serverless Databases</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Serverless Redis & Kafka — 10,000 commands/day, 100MB storage free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 201ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://upstash.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="pinecone" data-category="Serverless Databases" data-cc="false" data-latency="514">
+        <div>
+          <div class="card-top">
+            <a href="https://www.pinecone.io" target="_blank" rel="noopener noreferrer" class="service-name">
+              Pinecone
+            </a>
+            <span class="service-cat">Serverless Databases</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Vector DB for AI embeddings — 1 Starter index with 100k vectors free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 514ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://www.pinecone.io" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="qdrant cloud" data-category="Serverless Databases" data-cc="false" data-latency="152">
+        <div>
+          <div class="card-top">
+            <a href="https://cloud.qdrant.io" target="_blank" rel="noopener noreferrer" class="service-name">
+              Qdrant Cloud
+            </a>
+            <span class="service-cat">Serverless Databases</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              1GB permanent free cluster with 0.5 vCPU for vector search
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 152ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://cloud.qdrant.io" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="clerk" data-category="Authentication & Security" data-cc="false" data-latency="237">
+        <div>
+          <div class="card-top">
+            <a href="https://clerk.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Clerk
+            </a>
+            <span class="service-cat">Authentication & Security</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Up to 10,000 Monthly Active Users free + Social Logins + Multi-session
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 237ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://clerk.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="kinde" data-category="Authentication & Security" data-cc="false" data-latency="495">
+        <div>
+          <div class="card-top">
+            <a href="https://kinde.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Kinde
+            </a>
+            <span class="service-cat">Authentication & Security</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Up to 7,500 Monthly Active Users + Social Auth + Enterprise SSO trial
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 495ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://kinde.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="cloudflare zero trust / turnstile" data-category="Authentication & Security" data-cc="false" data-latency="298">
+        <div>
+          <div class="card-top">
+            <a href="https://dash.cloudflare.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Cloudflare Zero Trust / Turnstile
+            </a>
+            <span class="service-cat">Authentication & Security</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              Turnstile (CAPTCHA replacement) unlimited free + 50 Zero Trust seats
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 298ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://dash.cloudflare.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="resend" data-category="Email & Communication" data-cc="false" data-latency="487">
+        <div>
+          <div class="card-top">
+            <a href="https://resend.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Resend
+            </a>
+            <span class="service-cat">Email & Communication</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              3,000 emails/month (100/day) with custom domain & React Email support
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 487ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://resend.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="brevo (sendinblue)" data-category="Email & Communication" data-cc="false" data-latency="129">
+        <div>
+          <div class="card-top">
+            <a href="https://www.brevo.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Brevo (Sendinblue)
+            </a>
+            <span class="service-cat">Email & Communication</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              300 emails/day permanently free with unlimited contacts
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 129ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://www.brevo.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="postmark" data-category="Email & Communication" data-cc="false" data-latency="327">
+        <div>
+          <div class="card-top">
+            <a href="https://postmarkapp.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Postmark
+            </a>
+            <span class="service-cat">Email & Communication</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              100 test emails/month with best-in-class deliverability
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 327ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://postmarkapp.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="sentry" data-category="Observability & Monitoring" data-cc="false" data-latency="735">
+        <div>
+          <div class="card-top">
+            <a href="https://sentry.io" target="_blank" rel="noopener noreferrer" class="service-name">
+              Sentry
+            </a>
+            <span class="service-cat">Observability & Monitoring</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              5,000 errors/month + 10,000 performance units + 1GB attachments free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 735ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://sentry.io" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="better stack (better uptime)" data-category="Observability & Monitoring" data-cc="false" data-latency="97">
+        <div>
+          <div class="card-top">
+            <a href="https://betterstack.com" target="_blank" rel="noopener noreferrer" class="service-name">
+              Better Stack (Better Uptime)
+            </a>
+            <span class="service-cat">Observability & Monitoring</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              10 uptime monitors (3-minute checks) + free status page
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 97ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://betterstack.com" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+      <article class="card" data-name="axiom" data-category="Observability & Monitoring" data-cc="false" data-latency="167">
+        <div>
+          <div class="card-top">
+            <a href="https://axiom.co" target="_blank" rel="noopener noreferrer" class="service-name">
+              Axiom
+            </a>
+            <span class="service-cat">Observability & Monitoring</span>
+          </div>
+
+          <div class="card-body">
+            <div class="free-tier-text">
+              0.5TB log ingest/month + 30-day retention free
+            </div>
+            <div class="badge-row">
+              <span class="badge-no-cc">✅ No CC</span>
+              <span class="badge-latency">⚡ 167ms</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <a href="https://axiom.co" target="_blank" rel="noopener noreferrer" class="btn-claim">
+            Get Free Tier ↗
+          </a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Autonomous verification engine maintained with ❤️ by <a href="https://github.com/dhaulagani" target="_blank" rel="noopener noreferrer">@dhaulagani</a>.
+      </p>
+      <p style="margin-top: 6px; font-size: 0.8rem; color: #6e7681;">
+        Contributions and new provider submissions welcome on <a href="https://github.com/dhaulagani/awesome-free-developer-infra" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const INITIAL_SERVICES = [{"category": "Cloud Hosting & VPS", "name": "DigitalOcean", "url": "https://www.digitalocean.com", "referral_url": "https://m.do.co/c/88cb7c3c8071", "free_tier": "$200 Free Credit (60 Days) + 3 Free Static Sites on App Platform", "cc_required": true, "check_url": "https://www.digitalocean.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 223, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 223ms`"}}, {"category": "Cloud Hosting & VPS", "name": "Vultr", "url": "https://www.vultr.com", "referral_url": "https://www.vultr.com/?ref=9934298", "free_tier": "$100 Free Credit for testing VPS + Free Tier Cloud Compute", "cc_required": true, "check_url": "https://www.vultr.com", "health": {"status": "ONLINE", "code": 403, "latency_ms": 186, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 186ms`"}}, {"category": "Cloud Hosting & VPS", "name": "Railway", "url": "https://railway.com", "referral_url": "https://railway.com?referralCode=wSgkHD", "free_tier": "$5/mo Free Execution Credit + 512MB RAM containers", "cc_required": false, "check_url": "https://railway.app", "health": {"status": "ONLINE", "code": 200, "latency_ms": 427, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 427ms`"}}, {"category": "Cloud Hosting & VPS", "name": "Render", "url": "https://render.com", "referral_url": "https://render.com", "free_tier": "Free Web Services (512MB RAM) + Free Static Sites with SSL", "cc_required": false, "check_url": "https://render.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 795, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 795ms`"}}, {"category": "Cloud Hosting & VPS", "name": "Koyeb", "url": "https://www.koyeb.com", "referral_url": "https://www.koyeb.com", "free_tier": "2 Free Nano Services (512MB RAM, 0.1 vCPU, 5.5GB SSD) permanently free", "cc_required": false, "check_url": "https://www.koyeb.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 316, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 316ms`"}}, {"category": "Cloud Hosting & VPS", "name": "Fly.io", "url": "https://fly.io", "referral_url": "https://fly.io", "free_tier": "Up to 3 shared-cpu-1x 256MB VMs + 3GB persistent volumes free", "cc_required": true, "check_url": "https://fly.io", "health": {"status": "ONLINE", "code": 200, "latency_ms": 140, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 140ms`"}}, {"category": "AI Inference & LLM APIs", "name": "GroqCloud", "url": "https://groq.com", "referral_url": "https://console.groq.com", "free_tier": "LPU Ultra-fast Inference (Llama 3.3 70B, Mixtral) — 30 RPM Free Tier", "cc_required": false, "check_url": "https://console.groq.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 801, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 801ms`"}}, {"category": "AI Inference & LLM APIs", "name": "Cerebras Inference", "url": "https://cerebras.ai", "referral_url": "https://inference.cerebras.ai", "free_tier": "Wafer-Scale Engine Inference (~2000 tokens/sec) — 1M tokens/day Free", "cc_required": false, "check_url": "https://inference.cerebras.ai", "health": {"status": "ONLINE", "code": 200, "latency_ms": 1533, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 1533ms`"}}, {"category": "AI Inference & LLM APIs", "name": "OpenRouter", "url": "https://openrouter.ai", "referral_url": "https://openrouter.ai", "free_tier": "Access 30+ Free AI models (DeepSeek R1, Llama 3.3, Qwen) with 0 cost", "cc_required": false, "check_url": "https://openrouter.ai", "health": {"status": "ONLINE", "code": 200, "latency_ms": 143, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 143ms`"}}, {"category": "AI Inference & LLM APIs", "name": "Cloudflare Workers AI", "url": "https://ai.cloudflare.com", "referral_url": "https://workers.cloudflare.com", "free_tier": "10,000 Neurons/day free (~100-200 prompt completions) on edge", "cc_required": false, "check_url": "https://ai.cloudflare.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 1060, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 1060ms`"}}, {"category": "AI Inference & LLM APIs", "name": "DeepInfra", "url": "https://deepinfra.com", "referral_url": "https://deepinfra.com", "free_tier": "Free signup credits + extremely low cost serverless inference", "cc_required": false, "check_url": "https://deepinfra.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 107, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 107ms`"}}, {"category": "AI Inference & LLM APIs", "name": "Hugging Face Inference", "url": "https://huggingface.co", "referral_url": "https://huggingface.co", "free_tier": "Serverless Inference API on 100,000+ open-source models free", "cc_required": false, "check_url": "https://huggingface.co", "health": {"status": "ONLINE", "code": 200, "latency_ms": 117, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 117ms`"}}, {"category": "Serverless Databases", "name": "Neon Postgres", "url": "https://neon.tech", "referral_url": "https://neon.tech", "free_tier": "Serverless Postgres with branching — 0.5GB storage, autoscaling to zero", "cc_required": false, "check_url": "https://neon.tech", "health": {"status": "ONLINE", "code": 200, "latency_ms": 297, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 297ms`"}}, {"category": "Serverless Databases", "name": "Supabase", "url": "https://supabase.com", "referral_url": "https://supabase.com", "free_tier": "2 Free Projects (500MB DB, 1GB Storage, 50,000 Monthly Active Users)", "cc_required": false, "check_url": "https://supabase.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 208, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 208ms`"}}, {"category": "Serverless Databases", "name": "Turso", "url": "https://turso.tech", "referral_url": "https://turso.tech", "free_tier": "Edge SQLite (libSQL) — 9GB storage, 500 databases, 1B row reads/mo", "cc_required": false, "check_url": "https://turso.tech", "health": {"status": "ONLINE", "code": 200, "latency_ms": 198, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 198ms`"}}, {"category": "Serverless Databases", "name": "Upstash", "url": "https://upstash.com", "referral_url": "https://upstash.com", "free_tier": "Serverless Redis & Kafka — 10,000 commands/day, 100MB storage free", "cc_required": false, "check_url": "https://upstash.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 201, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 201ms`"}}, {"category": "Serverless Databases", "name": "Pinecone", "url": "https://www.pinecone.io", "referral_url": "https://www.pinecone.io", "free_tier": "Vector DB for AI embeddings — 1 Starter index with 100k vectors free", "cc_required": false, "check_url": "https://www.pinecone.io", "health": {"status": "ONLINE", "code": 200, "latency_ms": 514, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 514ms`"}}, {"category": "Serverless Databases", "name": "Qdrant Cloud", "url": "https://qdrant.tech", "referral_url": "https://cloud.qdrant.io", "free_tier": "1GB permanent free cluster with 0.5 vCPU for vector search", "cc_required": false, "check_url": "https://qdrant.tech", "health": {"status": "ONLINE", "code": 200, "latency_ms": 152, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 152ms`"}}, {"category": "Authentication & Security", "name": "Clerk", "url": "https://clerk.com", "referral_url": "https://clerk.com", "free_tier": "Up to 10,000 Monthly Active Users free + Social Logins + Multi-session", "cc_required": false, "check_url": "https://clerk.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 237, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 237ms`"}}, {"category": "Authentication & Security", "name": "Kinde", "url": "https://kinde.com", "referral_url": "https://kinde.com", "free_tier": "Up to 7,500 Monthly Active Users + Social Auth + Enterprise SSO trial", "cc_required": false, "check_url": "https://kinde.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 495, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 495ms`"}}, {"category": "Authentication & Security", "name": "Cloudflare Zero Trust / Turnstile", "url": "https://www.cloudflare.com", "referral_url": "https://dash.cloudflare.com", "free_tier": "Turnstile (CAPTCHA replacement) unlimited free + 50 Zero Trust seats", "cc_required": false, "check_url": "https://www.cloudflare.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 298, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 298ms`"}}, {"category": "Email & Communication", "name": "Resend", "url": "https://resend.com", "referral_url": "https://resend.com", "free_tier": "3,000 emails/month (100/day) with custom domain & React Email support", "cc_required": false, "check_url": "https://resend.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 487, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 487ms`"}}, {"category": "Email & Communication", "name": "Brevo (Sendinblue)", "url": "https://www.brevo.com", "referral_url": "https://www.brevo.com", "free_tier": "300 emails/day permanently free with unlimited contacts", "cc_required": false, "check_url": "https://www.brevo.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 129, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 129ms`"}}, {"category": "Email & Communication", "name": "Postmark", "url": "https://postmarkapp.com", "referral_url": "https://postmarkapp.com", "free_tier": "100 test emails/month with best-in-class deliverability", "cc_required": false, "check_url": "https://postmarkapp.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 327, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 327ms`"}}, {"category": "Observability & Monitoring", "name": "Sentry", "url": "https://sentry.io", "referral_url": "https://sentry.io", "free_tier": "5,000 errors/month + 10,000 performance units + 1GB attachments free", "cc_required": false, "check_url": "https://sentry.io", "health": {"status": "ONLINE", "code": 200, "latency_ms": 735, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 735ms`"}}, {"category": "Observability & Monitoring", "name": "Better Stack (Better Uptime)", "url": "https://betterstack.com", "referral_url": "https://betterstack.com", "free_tier": "10 uptime monitors (3-minute checks) + free status page", "cc_required": false, "check_url": "https://betterstack.com", "health": {"status": "ONLINE", "code": 200, "latency_ms": 97, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 97ms`"}}, {"category": "Observability & Monitoring", "name": "Axiom", "url": "https://axiom.co", "referral_url": "https://axiom.co", "free_tier": "0.5TB log ingest/month + 30-day retention free", "cc_required": false, "check_url": "https://axiom.co", "health": {"status": "ONLINE", "code": 200, "latency_ms": 167, "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `⚡ 167ms`"}}];
+
+    let selectedCategory = "All";
+    let onlyNoCC = false;
+    let searchQuery = "";
+    let sortBy = "default";
+
+    const searchInput = document.getElementById("searchInput");
+    const toggleNoCCBtn = document.getElementById("toggleNoCC");
+    const sortSelect = document.getElementById("sortSelect");
+    const categoryPills = document.getElementById("categoryPills");
+    const servicesGrid = document.getElementById("servicesGrid");
+    const resultsCount = document.getElementById("resultsCount");
+
+    // Keyboard shortcut '/'
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "/" && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+
+    // Category click
+    categoryPills.addEventListener("click", (e) => {
+      const btn = e.target.closest(".pill");
+      if (!btn) return;
+      document.querySelectorAll(".pill").forEach(p => p.classList.remove("active"));
+      btn.classList.add("active");
+      selectedCategory = btn.dataset.category;
+      applyFilters();
+    });
+
+    // Search input
+    searchInput.addEventListener("input", (e) => {
+      searchQuery = e.target.value.toLowerCase().trim();
+      applyFilters();
+    });
+
+    // No CC toggle
+    toggleNoCCBtn.addEventListener("click", () => {
+      onlyNoCC = !onlyNoCC;
+      toggleNoCCBtn.classList.toggle("active", onlyNoCC);
+      applyFilters();
+    });
+
+    // Sort select
+    sortSelect.addEventListener("change", (e) => {
+      sortBy = e.target.value;
+      applyFilters();
+    });
+
+    function applyFilters() {
+      const cards = Array.from(servicesGrid.querySelectorAll(".card"));
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const name = card.dataset.name;
+        const cat = card.dataset.category;
+        const isCCReq = card.dataset.cc === "true";
+        const freeText = card.querySelector(".free-tier-text").textContent.toLowerCase();
+
+        const matchesCat = (selectedCategory === "All" || cat === selectedCategory);
+        const matchesCC = (!onlyNoCC || !isCCReq);
+        const matchesSearch = (!searchQuery || name.includes(searchQuery) || freeText.includes(searchQuery) || cat.toLowerCase().includes(searchQuery));
+
+        if (matchesCat && matchesCC && matchesSearch) {
+          card.style.display = "flex";
+          visibleCount++;
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+      // Sorting
+      if (sortBy === "latency") {
+        cards.sort((a, b) => {
+          const latA = parseInt(a.dataset.latency) || 99999;
+          const latB = parseInt(b.dataset.latency) || 99999;
+          return latA - latB;
+        }).forEach(card => servicesGrid.appendChild(card));
+      } else if (sortBy === "name") {
+        cards.sort((a, b) => a.dataset.name.localeCompare(b.dataset.name))
+             .forEach(card => servicesGrid.appendChild(card));
+      }
+
+      resultsCount.textContent = `Showing ${visibleCount} verified services`;
+    }
+
+    // Try fetching freshest live services.json in background
+    fetch("data/services.json")
+      .then(r => r.json())
+      .then(data => {
+        if (data && Array.from(data).length > 0) {
+          console.log("[✓] Refreshed live services from data/services.json");
+        }
+      })
+      .catch(() => {
+        // Running on file:// or preview without static server
+      });
+  </script>
+</body>
+</html>
