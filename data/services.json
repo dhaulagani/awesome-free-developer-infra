@@ -3,43 +3,45 @@
     "category": "Cloud Hosting & VPS",
     "name": "DigitalOcean",
     "url": "https://www.digitalocean.com",
-    "referral_url": "https://m.do.co/c/affiliate_free_credit",
+    "referral_url": "https://m.do.co/c/88cb7c3c8071",
     "free_tier": "$200 Free Credit (60 Days) + 3 Free Static Sites on App Platform",
     "cc_required": true,
     "check_url": "https://www.digitalocean.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 94,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 161,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 161ms`"
     }
   },
   {
     "category": "Cloud Hosting & VPS",
     "name": "Vultr",
     "url": "https://www.vultr.com",
-    "referral_url": "https://www.vultr.com/?ref=affiliate_free_tier",
+    "referral_url": "https://www.vultr.com/?ref=9934298",
     "free_tier": "$100 Free Credit for testing VPS + Free Tier Cloud Compute",
     "cc_required": true,
     "check_url": "https://www.vultr.com",
     "health": {
-      "status": "CHECK_FAILED",
-      "code": 0,
-      "latency_ms": 0,
-      "badge": "![Checking](https://img.shields.io/badge/Status-Verifying-8b949e?style=flat-square)"
+      "status": "ONLINE",
+      "code": 403,
+      "latency_ms": 247,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 247ms`"
     }
   },
   {
     "category": "Cloud Hosting & VPS",
     "name": "Railway",
-    "url": "https://railway.app",
-    "referral_url": "https://railway.app?referralCode=dev_infra",
+    "url": "https://railway.com",
+    "referral_url": "https://railway.com?referralCode=wSgkHD",
     "free_tier": "$5/mo Free Execution Credit + 512MB RAM containers",
     "cc_required": false,
     "check_url": "https://railway.app",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 349,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 460,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 460ms`"
     }
   },
   {
@@ -52,8 +54,9 @@
     "check_url": "https://render.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 117,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 290,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 290ms`"
     }
   },
   {
@@ -66,8 +69,9 @@
     "check_url": "https://www.koyeb.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 443,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 279,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 279ms`"
     }
   },
   {
@@ -80,8 +84,9 @@
     "check_url": "https://fly.io",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 200,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 120,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 120ms`"
     }
   },
   {
@@ -94,8 +99,9 @@
     "check_url": "https://console.groq.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 300,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 419,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 419ms`"
     }
   },
   {
@@ -108,8 +114,9 @@
     "check_url": "https://inference.cerebras.ai",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 631,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 917,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 917ms`"
     }
   },
   {
@@ -122,8 +129,9 @@
     "check_url": "https://openrouter.ai",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 88,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 272,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 272ms`"
     }
   },
   {
@@ -136,8 +144,9 @@
     "check_url": "https://ai.cloudflare.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 474,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 977,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 977ms`"
     }
   },
   {
@@ -150,8 +159,9 @@
     "check_url": "https://deepinfra.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 135,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 151,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 151ms`"
     }
   },
   {
@@ -164,8 +174,9 @@
     "check_url": "https://huggingface.co",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 87,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 137,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 137ms`"
     }
   },
   {
@@ -178,8 +189,9 @@
     "check_url": "https://neon.tech",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 219,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 237,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 237ms`"
     }
   },
   {
@@ -192,8 +204,9 @@
     "check_url": "https://supabase.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 107,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 156,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 156ms`"
     }
   },
   {
@@ -206,8 +219,9 @@
     "check_url": "https://turso.tech",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 143,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 166,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 166ms`"
     }
   },
   {
@@ -220,8 +234,9 @@
     "check_url": "https://upstash.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 175,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 152,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 152ms`"
     }
   },
   {
@@ -234,8 +249,9 @@
     "check_url": "https://www.pinecone.io",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 223,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 446,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 446ms`"
     }
   },
   {
@@ -248,8 +264,9 @@
     "check_url": "https://qdrant.tech",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 232,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 132,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 132ms`"
     }
   },
   {
@@ -262,8 +279,9 @@
     "check_url": "https://clerk.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 324,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 167,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 167ms`"
     }
   },
   {
@@ -276,8 +294,9 @@
     "check_url": "https://kinde.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 431,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 491,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 491ms`"
     }
   },
   {
@@ -290,8 +309,9 @@
     "check_url": "https://www.cloudflare.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 118,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 346,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 346ms`"
     }
   },
   {
@@ -304,8 +324,9 @@
     "check_url": "https://resend.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 311,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 432,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 432ms`"
     }
   },
   {
@@ -318,8 +339,9 @@
     "check_url": "https://www.brevo.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 70,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 114,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 114ms`"
     }
   },
   {
@@ -332,8 +354,9 @@
     "check_url": "https://postmarkapp.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 265,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 341,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 341ms`"
     }
   },
   {
@@ -346,8 +369,9 @@
     "check_url": "https://sentry.io",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 342,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 726,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 726ms`"
     }
   },
   {
@@ -360,8 +384,9 @@
     "check_url": "https://betterstack.com",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 55,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 131,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 131ms`"
     }
   },
   {
@@ -374,8 +399,9 @@
     "check_url": "https://axiom.co",
     "health": {
       "status": "ONLINE",
-      "latency_ms": 100,
-      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) "
+      "code": 200,
+      "latency_ms": 156,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 156ms`"
     }
   }
 ]
