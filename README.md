@@ -7,6 +7,16 @@
 
 ---
 
+## 🌟 Featured Partner & Sponsored Listings
+
+| Partner | Product & Capability | Promotion Tier | Claim Sponsored Spot |
+| :--- | :--- | :--- | :--- |
+| **[Your Cloud / DevTool Platform Here]** | Showcase your cloud VPS, serverless database, or developer infrastructure to 10,000+ engineers building production projects. | Featured Infrastructure Partner ($149 / month) | [**Book Featured Placement ($149) ↗**](https://paypal.me/dhaulagani/149USD) |
+
+> 💼 **Advertise Your Dev-Tool / Cloud Service**: To secure a featured placement, verify benchmark latency, or submit an enterprise listing, contact `dhaulagani@gmail.com` or book directly via [PayPal](https://paypal.me/dhaulagani/149USD).
+
+---
+
 ### 💡 Why this repository exists
 Most curated 'awesome' lists on GitHub are abandoned and full of outdated 2020 links (like deprecated free tiers).
 This repository runs an **autonomous verification engine** that actively tests each service daily, confirming that free tiers and API endpoints remain accessible and ready for production side-projects.
@@ -101,4 +111,4 @@ Found a generous free tier or new serverless platform? Submit a PR or open an is
 - 🎙️ [powerful-realtime-voice-ai](https://github.com/dhaulagani/powerful-realtime-voice-ai) — Full-duplex speech-to-speech (S2S) models, neural TTS & WebRTC agents.
 - ⚡ [powerful-agent-skills](https://github.com/dhaulagani/powerful-agent-skills) — The fastest-trending AI agent skills, harnesses & self-installing registry.
 
-**Maintained with ❤️ by [@dhaulagani](https://github.com/dhaulagani)** | Support continuous open-source maintenance via [GitHub Sponsors](https://github.com/sponsors/dhaulagani).
+**Maintained with ❤️ by [@dhaulagani](https://github.com/dhaulagani)** | [GitHub Sponsors](https://github.com/sponsors/dhaulagani) | [Commercial Sponsorship & Featured Inquiries](mailto:dhaulagani@gmail.com) | [Instant PayPal Booking](https://paypal.me/dhaulagani/149USD)
